@@ -1,0 +1,143 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<main>
+  <div id="header-field">
+    <h1 id="title">Survey Form</h1>
+    <p id="description"><em>A brief performance feedback</em></p>
+  </div>
+
+  <form id="survey-form">
+    <div id="name-field">
+      <label for="name" id="name-label">Name</label><br />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+        required
+      /><br />
+    </div>
+
+    <div id="email-field">
+      <label for="email" id="email-label">Email</label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      /><br />
+    </div>
+
+    <div id="age-field">
+      <label for="number" id="number-label">Age (optional)</label><br />
+      <input
+        type="number"
+        id="number"
+        name="number"
+        min="1"
+        max="999"
+        placeholder="Age"
+      /><br />
+    </div>
+
+    <!-- dropdown 1 -->
+    <div id="dropdown-options-1">
+      <label for="dropdown">What option best describes your current role?</label
+      ><br />
+      <select name="dropdown" id="dropdown">
+        <option value="" disabled selected hidden
+          >Select your current role</option
+        >
+        <option value="student">Student</option>
+        <option value="job">Full Time Job</option>
+        <option value="learner">Full Time Learner</option>
+        <option value="no-answer">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <!-- radio buttons -->
+    <div id="radio-btns">
+      <label>Would you recommend my services to a friend?</label><br />
+      <input
+        type="radio"
+        id="definitely"
+        name="recommendation"
+        value="definitely"
+      />
+      <label for="definitely">Definitely</label><br />
+      <input type="radio" id="maybe" name="recommendation" value="maybe" />
+      <label for="maybe">Maybe</label><br />
+      <input type="radio" id="note-sure" name="recommendation" value="other" />
+      <label for="not-sure">Not sure</label>
+    </div>
+
+    <!-- dropdown 2 -->
+    <div id="dropdown-options-2">
+      <label for="dropdown"
+        >What is your favorite feature of freeCodeBootcamp?</label
+      ><br />
+      <select name="dropdown" id="dropdown">
+        <option value="" disabled selected hidden>Select an option</option>
+        <option value="challenges">Challenges</option>
+        <option value="projects">Projects</option>
+        <option value="community">Community</option>
+        <option value="open-source">Open Source</option>
+      </select>
+    </div>
+
+    <!-- checkboxes -->
+    <div id="checkboxes">
+      <label
+        >What would you like to see improved? (check all that applies)</label
+      ><br />
+      <input type="checkbox" id="option1" name="option1" value="front-end" />
+      <label for="option1">Front-end Projects</label><br />
+      <input type="checkbox" id="option2" name="option2" value="back-end" />
+      <label for="option2">Back-end Projects</label><br />
+      <input
+        type="checkbox"
+        id="option3"
+        name="option3"
+        value="data-visualization"
+      />
+      <label for="option3">Data Visualization</label><br />
+      <input type="checkbox" id="option4" name="option4" value="challenges" />
+      <label for="option4">Challenges</label><br />
+      <input type="checkbox" id="option5" name="option5" value="open-source" />
+      <label for="option5">Open Source Community</label><br />
+      <input type="checkbox" id="option6" name="option6" value="help-rooms" />
+      <label for="option6">Help rooms</label><br />
+      <input type="checkbox" id="option7" name="option7" value="meetups" />
+      <label for="option7">City Meetups</label><br />
+      <input type="checkbox" id="option8" name="option8" value="forums" />
+      <label for="option8">Forums</label><br />
+      <input
+        type="checkbox"
+        id="option9"
+        name="option9"
+        value="additional-courses"
+      />
+      <label for="option9">Additional Courses</label><br />
+    </div>
+
+    <!-- additional information -->
+    <div id="comments-suggestions">
+      <label for="additional-comments">Any comments or suggestions?</label
+      ><br />
+      <textarea
+        id="additional-comments"
+        name="additional-comments"
+        row="4"
+        col="50"
+        placeholder="Enter your comments here..."
+      ></textarea>
+    </div>
+
+    <!-- submit survey -->
+    <div id="survey-btn">
+      <input type="submit" id="submit" value="Submit" />
+    </div>
+  </form>
+</main>
