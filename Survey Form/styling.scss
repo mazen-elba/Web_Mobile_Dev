@@ -33,11 +33,23 @@ form {
   border-radius: 4px;
 }
 
-#name-field, #email-field, #age-field, #dropdown-options-1, #radio-btns, #dropdown-options-2, #checkboxes, #comments-suggestions, #survey-btn {
+#name-field,
+#email-field,
+#age-field,
+#dropdown-options-1,
+#radio-btns,
+#dropdown-options-2,
+#checkboxes,
+#comments-suggestions,
+#survey-btn {
   margin: 20px;
 }
 
-#name, #email, #number, #dropdown, #additional-comments {
+#name,
+#email,
+#number,
+#dropdown,
+#additional-comments {
   border-radius: 4px;
   width: 100%;
   border: none;
@@ -49,7 +61,8 @@ form {
   resize: none;
 }
 
-::placeholder, #dropdown {
+::placeholder,
+#dropdown {
   padding-left: 5px;
 }
 
@@ -66,7 +79,6 @@ form {
   width: 100%;
   height: 40px;
 }
-
 
 #additional-comments {
   height: 100px;
