@@ -9,13 +9,15 @@
   <!-- User Story 13: The navbar should always be at the top of the viewport -->
   <div class="header">
     <header id="header">
-      <!--       <img id="img-header" > LOGO -->
-      <nav id="nav-bar">
-        <div class="nav-link">
-          <a class="nav-link" href="#features">Features</a>
-          <a class="nav-link" href="#how-it-works">How It Works</a>
-          <a class="nav-link" href="#pricing">Pricing</a>
-        </div>
+      <img id="header-img" src="https://spee.ch/a/Blockchan2" alt="" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <nav id="nav-bar" class="nav-link">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#how-it-works">How It Works</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
       </nav>
     </header>
     <a href="#default" class="logo">Original Trumbones</a>
@@ -48,7 +50,7 @@
     </form>
   </div>
 
-  <div id="features">
+  <section id="features">
     <h3>Premium Materials</h3>
     <p>
       Our trombones use the shiniest brass which is sourced locally. This will
@@ -64,30 +66,28 @@
       For every purchase you make, we will ensure there are no damages or faults
       and we will check and test the pitch of your instrument.
     </p>
-  </div>
+  </section>
 
   <!-- User Story 6: User can watch an embedded product video with id="video" -->
-  <div id="how-it-works">
+  <section id="how-it-works" class="flex-container">
     <iframe
       id="video"
-      width="1040"
-      height="585"
       src="https://www.youtube.com/embed/LTQkTLKA8Pc"
       frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
-  </div>
+  </section>
 
   <!-- User Story 15: Product landing page should utilize CSS flexbox at least once -->
-  <div id="pricing" class="grid-container">
-    <div class="grid-item1" style="background-color: grey;">
+  <section id="pricing" class="grid-container">
+    <div class="grid-item1">
       <strong>TENOR TRUMBONE</strong>
     </div>
-    <div class="grid-item2" style="background-color: grey;">
+    <div class="grid-item2">
       <strong>BASS TRUMBONE</strong>
     </div>
-    <div class="grid-item3" style="background-color: grey;">
+    <div class="grid-item3">
       <strong>VALVE TRUMBONE</strong>
     </div>
     <div class="grid-item4"><strong>$600</strong></div>
@@ -112,15 +112,15 @@
       <p>lorem ipsum</p>
     </div>
     <div class="grid-item10">
-      <button type="button" onclick="">SELECT</button>
+      <button id="select-btn" type="button" onclick="">SELECT</button>
     </div>
     <div class="grid-item11">
-      <button type="button" onclick="">SELECT</button>
+      <button id="select-btn" type="button" onclick="">SELECT</button>
     </div>
     <div class="grid-item12">
-      <button type="button" onclick="">SELECT</button>
+      <button id="select-btn" type="button" onclick="">SELECT</button>
     </div>
-  </div>
+  </section>
 
   <div class="footer">
     <footer id="footer">
