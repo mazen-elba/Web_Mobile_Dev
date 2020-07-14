@@ -1,0 +1,147 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<main>
+  <!-- User Story 1: Product landing page should have a header element with a corresponding id="header" -->
+  <!-- !!!!User Story 2: User can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here -->
+  <!-- User Story 3: Within the #header element User can see a nav element with a corresponding id="nav-bar" -->
+  <!-- User Story 4: User can see at least three clickable elements inside the nav element, each with the class nav-link -->
+  <!-- !!!!!!User Story 5: When User clicks a .nav-link button in the nav element, User is taken to the corresponding section of the landing page -->
+  <!-- User Story 13: The navbar should always be at the top of the viewport -->
+  <div class="header">
+    <header id="header">
+      <!--       <img id="img-header" > LOGO -->
+      <nav id="nav-bar">
+        <div class="nav-link">
+          <a class="nav-link" href="#features">Features</a>
+          <a class="nav-link" href="#how-it-works">How It Works</a>
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </div>
+      </nav>
+    </header>
+    <a href="#default" class="logo">Original Trumbones</a>
+  </div>
+
+  <!-- User Story 7: My landing page has a form element with a corresponding id="form" -->
+  <!-- User Story 8: Within the form, there is an input field with id="email" where User can enter an email address -->
+  <!-- User Story 9: The #email input field should have placeholder text to let the user know what the field is for -->
+  <!-- User Story 10: The #email input field uses HTML5 validation to confirm that the entered text is an email address -->
+  <!-- User Story 11: Within the form, there is a submit input with a corresponding id="submit" -->
+  <!-- User Story 12: When User clicks the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit) -->
+  <div>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <div>
+        <h3>Handcrafted, home-made masterpieces</h3>
+      </div>
+      <div>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Enter your email address"
+          target="_blank"
+          required
+        />
+      </div>
+      <div>
+        <input id="submit" type="submit" value="Submit" />
+      </div>
+    </form>
+  </div>
+
+  <div id="features">
+    <h3>Premium Materials</h3>
+    <p>
+      Our trombones use the shiniest brass which is sourced locally. This will
+      increase the longevity of your purchase.
+    </p>
+    <h3>Fast Shipping</h3>
+    <p>
+      We make sure you recieve your trombone as soon as we have finished making
+      it. We also provide free returns if you are not satisfied.
+    </p>
+    <h3>Quality Assurance</h3>
+    <p>
+      For every purchase you make, we will ensure there are no damages or faults
+      and we will check and test the pitch of your instrument.
+    </p>
+  </div>
+
+  <!-- User Story 6: User can watch an embedded product video with id="video" -->
+  <div id="how-it-works">
+    <iframe
+      id="video"
+      width="1040"
+      height="585"
+      src="https://www.youtube.com/embed/LTQkTLKA8Pc"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
+
+  <!-- User Story 15: Product landing page should utilize CSS flexbox at least once -->
+  <div id="pricing" class="grid-container">
+    <div class="grid-item1" style="background-color: grey;">
+      <strong>TENOR TRUMBONE</strong>
+    </div>
+    <div class="grid-item2" style="background-color: grey;">
+      <strong>BASS TRUMBONE</strong>
+    </div>
+    <div class="grid-item3" style="background-color: grey;">
+      <strong>VALVE TRUMBONE</strong>
+    </div>
+    <div class="grid-item4"><strong>$600</strong></div>
+    <div class="grid-item5"><strong>$900</strong></div>
+    <div class="grid-item6"><strong>$1200</strong></div>
+    <div class="grid-item7">
+      <p>lorem ipsum</p>
+      <p>lorem ipsum</p>
+      <p>lorem ipsum</p>
+      <p>lorem ipsum</p>
+    </div>
+    <div class="grid-item8">
+      <p>lorem ipsum</p>
+      <p>lorem ipsum</p>
+      <p>lorem ipsum</p>
+      <p>lorem ipsum</p>
+    </div>
+    <div class="grid-item9">
+      <p>lorem ipsum</p>
+      <p>lorem ipsum</p>
+      <p>lorem ipsum</p>
+      <p>lorem ipsum</p>
+    </div>
+    <div class="grid-item10">
+      <button type="button" onclick="">SELECT</button>
+    </div>
+    <div class="grid-item11">
+      <button type="button" onclick="">SELECT</button>
+    </div>
+    <div class="grid-item12">
+      <button type="button" onclick="">SELECT</button>
+    </div>
+  </div>
+
+  <div class="footer">
+    <footer id="footer">
+      <nav id="footer-bar">
+        <div class="footer-link">
+          <a class="footer-link" href="#privacy">Privacy</a>
+          <a class="footer-link" href="#terms">Terms</a>
+          <a class="footer-link" href="#contact">Contact</a>
+          <p>Copyright 2020 &copy, Original Trumbones</p>
+        </div>
+      </nav>
+    </footer>
+  </div>
+
+  <div id="privacy" class="privacy-link">
+    <a class="privacy-linkl" href="#"></a>
+  </div>
+  <div id="terms" class="terms-link">
+    <a class="terms-link" href="#"></a>
+  </div>
+  <div id="contact" class="contact-link">
+    <a class="contact-link" href="#"></a>
+  </div>
+</main>
